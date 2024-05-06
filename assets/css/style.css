@@ -107,9 +107,6 @@ li {
   Header styling starts here
 =================================*/
 
-figure{
-  width: 50%;
-}
 
 
 
@@ -122,9 +119,16 @@ figure{
   main styling starts here
 =================================*/
 
+.modal{
+  display: none;
+}
+.img2 ,.img3{
+  visibility: hidden;
+}
 
-
-
+.inner-text{
+  display: none;
+}
 
 
 
