@@ -363,12 +363,105 @@ justify-content: space-between;
 }
 
 .img2 ,.img3{ visibility: hidden; }
-.inner-text{ display: none; }
 .memory-right:hover .modal{ display: block; }
 
 /*=================================
   memory styling ends here
 =================================*/
+/*=================================
+  menu styling starts here
+=================================*/ 
+.menu .wrapper{
+width: 100%;
+}
+.menu-up{
+  width: 80%;
+  margin: auto;
+}
+.menu ul{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0px;
+  color: aliceblue;
+}
+.list-image5 ,.list-image6{
+  display: none;
+}
+.next-previous{
+display: flex;
+justify-content: center;
+gap: 20px;
+color: #fb6355;
+padding: 30px;
+}
+.next-previous figure{
+width: 1.5%;
+}
+.next-previous img{
+  width: 100%;
+
+}
+.menu .common-span::before {
+  width: 3%;
+}
+.menu ul span{
+  background-color: #fb6355;
+  z-index:2;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  padding: 20px 14px;
+  font-size: 17px;
+  font-weight: 700;
+}
+.menu-list{
+position: relative;
+}
+.inside-text{
+  width: 79%;
+background-color: #fb6355;
+z-index:2;
+position: absolute;
+  bottom: 0%;
+  padding: 25px 30px;
+  padding-bottom: 5px;
+}
+
+.inside-text h4{
+font-size: 20px;
+font-weight: 700;
+}
+.inside-text p{
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: lowercase;
+  padding: 15px 0px;
+}
+.inside-text p::first-letter{
+text-transform: uppercase;
+}
+.inside-text a{
+font-size: 12px;
+font-weight: 700;
+}
+.inside-text a::after {
+  font-family: "FontAwesome";
+  content: "\f078";
+  font-size: 8px;
+  font-weight: lighter;
+  margin-left: 3px;
+  padding-bottom: 3px;
+}
+ .inner-text{ 
+  display: none; 
+} 
+ .inside-text:hover .inner-text{
+  display: block;
+ }
+/*=================================
+  menu styling ends here
+=================================*/
+
 
 /*=================================
   main styling ends here
