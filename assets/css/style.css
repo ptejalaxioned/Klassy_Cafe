@@ -106,11 +106,80 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
+body{
+text-transform: capitalize;
+}
 
+.all-caps{
+  text-transform: uppercase;
+}
 
+header .wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 15px 0px;
+}
 
+header ul{
+display: flex;
+}
 
+.sub-list{
+  display: none;
+}
 
+.sub-list li{
+  padding: 5px ;
+}
+
+.features:hover .sub-list{
+display: block;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #e25a3c;
+padding: 5px 0px;
+position: absolute;
+top: 130%;
+left: 41%;
+width: 9vw;
+}
+.navigation{
+display: flex;
+justify-content: space-between;
+gap: 30px;
+align-items: center;
+width: 50%;
+}
+.navigation .navbar{
+  display: flex;
+justify-content: space-between;
+  width: 100%;
+}
+.navbar a {
+  color: black;
+  font-weight: 900;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.navbar a:hover {
+color: #e25a3c;
+}
+
+.features-a::after {
+  font-family: "FontAwesome";
+  content: "\f078";
+  font-size: 8px;
+  font-weight: lighter;
+}
+.sub-list a:hover{
+  color: aliceblue;
+}
+.features{
+  position: relative;
+}
+/* f078 */
 /*=================================
   Header styling ends here
 =================================*/  
