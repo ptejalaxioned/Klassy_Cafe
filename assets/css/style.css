@@ -507,14 +507,26 @@ header ul {
 =================================*/
 .menu .wrapper {
   width: 100%;
-  padding: 94px 0px;
+  padding: 94px 0px 9px;
   background-color: #fefaf9;
 }
 
-.menu-up {
-  width: 30%;
+.span-heading {
+  width: 34%;
   margin: auto;
+  text-transform: lowercase;
+}
+
+.span-heading h3::first-letter {
+  text-transform: capitalize;
+}
+
+.menu .span-heading {
   margin-left: 10%;
+}
+
+.span-heading h3 {
+  margin: 17px 0px 60px;
 }
 
 .menu ul {
@@ -544,10 +556,21 @@ header ul {
   border-radius: 27px;
 }
 
-.next-previous figure:nth-child(1) { padding-right: 8px; }
-.next-previous figure:nth-child(2) { padding-left: 8px; }
-.next-previous img { width: 100%; }
-.menu .common-span::before { width: 3%;}
+.next-previous figure:nth-child(1) {
+  padding-right: 8px;
+}
+
+.next-previous figure:nth-child(2) {
+  padding-left: 8px;
+}
+
+.next-previous img {
+  width: 100%;
+}
+
+.menu .common-span::before {
+  width: 3%;
+}
 
 .menu ul span {
   background-color: #fb6355;
@@ -561,9 +584,13 @@ header ul {
   border-radius: 3px;
 }
 
-.menu h3 { margin: 17px 0px 60px; }
-.menu-list { position: relative; }
-.menu-list img { border-radius: 3px; }
+.menu-list {
+  position: relative;
+}
+
+.menu-list img {
+  border-radius: 3px;
+}
 
 .inside-text {
   width: 79%;
@@ -588,7 +615,9 @@ header ul {
   padding: 15px 0px;
 }
 
-.inside-text p::first-letter { text-transform: uppercase; }
+.inside-text p::first-letter {
+  text-transform: uppercase;
+}
 
 .inside-text a {
   font-size: 12px;
@@ -604,14 +633,256 @@ header ul {
   padding-bottom: 3px;
 }
 
-.inner-text { display: none; }
-.inside-text:hover .inner-text { display: block; }
-.next-previous figure:hover { background-color: #808080d4; }
+.inner-text {
+  display: none;
+}
+
+.inside-text:hover .inner-text {
+  display: block;
+}
+
+.next-previous figure:hover {
+  background-color: #808080d4;
+}
 
 /*=================================
   menu styling ends here
 =================================*/
+/*=================================
+  chef styling starts here
+=================================*/
+.chef .wrapper {
+  width: 80%;
+  text-align: center;
+  padding: 94px 0px;
+}
 
+.span-center {
+  font-size: 15px;
+  color: #fb6355;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.chef img {
+  width: 96%;
+  margin: 2%;
+  border-radius: 2px;
+}
+
+.chef figure {
+  width: 100%;
+  border: 1px solid #808080d4;
+  border-radius: 2px;
+}
+
+.chef li {
+  width: 31%;
+}
+
+.chef ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+figcaption {
+  padding: 9px 0px 18px;
+}
+
+figcaption h5 {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+figcaption span {
+  font-size: 13px;
+  font-weight: 500;
+  color: #484545fc;
+}
+
+/*=================================
+  chef styling ends here
+=================================*/
+/*=================================
+  contact styling starts here
+=================================*/
+.contact .wrapper {
+  width: 100%;
+  color: aliceblue;
+  position: relative;
+}
+
+.contact img { height: 788px; }
+
+.contact-box {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: 2;
+  display: flex;
+  gap: 6%;
+  margin: 162px 10%;
+}
+
+.left-contact { width: 51%; }
+.right-contact { width: 43%;}
+
+.contact .common-heading {
+  font-size: 28.7px;
+  margin-bottom: 0px;
+}
+
+.contact .span-heading { width: 100%; }
+
+.contact .common-span {
+  font-size: 14px;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.common-span::before { border-color: aliceblue; }
+
+.contact p {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 30px 0px 55px;
+  text-transform: lowercase;
+}
+
+.contact p::first-letter { text-transform: uppercase; }
+
+.phone-email {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.phone-email li {
+  background-color: white;
+  width: 47%;
+  border-radius: 5px;
+}
+
+.phone-email span {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+}
+
+.email span::before {
+  content: "\f0e0";
+  font-family: "FontAwesome";
+}
+
+.phone span::before {
+  content: "\f095";
+  font-family: "FontAwesome";
+}
+
+.email span::before,
+.phone span::before {
+  background-color: #fb6355;
+  color: aliceblue;
+  width: 11%;
+  padding: 23px 21px;
+  border-radius: 40px;
+  font-size: 22px;
+  margin: auto;
+  margin-top: -25px;
+  margin-bottom: 11px;
+}
+
+.detailes {
+  width: 80%;
+  margin: 6px auto 16px;
+}
+
+.detailes a {
+  color: #484545;
+  font-size: 13.5px;
+  text-transform: lowercase;
+}
+
+.right-contact { background-color: white; }
+
+.input-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  width: 100%;
+  gap: 15px;
+}
+
+.info { width: 47%; }
+
+input {
+  width: 80%;
+  height: 40px;
+  padding: 0px 20px;
+  border: .1px solid #48454565;
+  border-width: thin;
+  border-radius: 3px;
+}
+
+.contact input::placeholder {
+  font-size: 14px;
+  color: #484545;
+  font-weight: 500;
+}
+
+textarea {
+  width: 89%;
+  height: 100px;
+  padding: 5%;
+  border-radius: 3px;
+  border: .1px solid #48454565;
+  border-width: thin;
+  resize: none;
+}
+
+.msg {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+textarea::placeholder { text-transform: capitalize; }
+
+.right-contact {
+  padding: 25px;
+  padding-bottom: 43px;
+  border-radius: 3px;
+}
+
+.right-contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact h4 {
+  font-size: 28px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  margin: 20px;
+}
+
+.orange {
+  background-color: #fb6355;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  padding: 12px;
+}
+
+/*=================================
+  contact styling ends here
+=================================*/
 
 /*=================================
   main styling ends here
