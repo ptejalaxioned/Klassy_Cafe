@@ -998,20 +998,66 @@ figcaption {
   height: 65px;
   border-radius: 3px;
 }
-
 /*=================================
   offer styling ends here
 =================================*/
 /*=================================
   main styling ends here
 =================================*/
+
 /*=================================
   footer styling starts here
 =================================*/
 
+footer .wrapper{
+  background-color: #fb6355;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  padding: 4% 10%;
+}
+footer img{
+  width: 100%;
+}
+.footer-right{
+display: flex;
+flex-direction: column;
+color: aliceblue;
+font-size: 14px;
+font-weight: 600;
+}
 
 
+footer a::before {
+  float: right;
+  text-indent: 0;
+  font-family: "FontAwesome";
+  color:#fb6355;
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 39px;
+}
 
+footer a {
+  text-indent: -9999px;
+  float: left;
+}
+
+footer .twitter::before {
+  content: "\f081";
+}
+
+footer .facebook::before {
+  content: "\f082";
+}
+
+footer .instagram::before {
+  content: "\f16d";
+}
+
+footer .linkedin::before {
+  content: "\f08c";
+}
 
 
 
