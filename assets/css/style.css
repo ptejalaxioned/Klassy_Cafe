@@ -712,7 +712,9 @@ figcaption span {
   position: relative;
 }
 
-.contact img { height: 788px; }
+.contact img {
+  height: 788px;
+}
 
 .contact-box {
   position: absolute;
@@ -724,15 +726,22 @@ figcaption span {
   margin: 162px 10%;
 }
 
-.left-contact { width: 51%; }
-.right-contact { width: 43%;}
+.left-contact {
+  width: 51%;
+}
+
+.right-contact {
+  width: 43%;
+}
 
 .contact .common-heading {
   font-size: 28.7px;
   margin-bottom: 0px;
 }
 
-.contact .span-heading { width: 100%; }
+.contact .span-heading {
+  width: 100%;
+}
 
 .contact .common-span {
   font-size: 14px;
@@ -740,7 +749,9 @@ figcaption span {
   font-weight: 600;
 }
 
-.common-span::before { border-color: aliceblue; }
+.common-span::before {
+  border-color: aliceblue;
+}
 
 .contact p {
   font-size: 13px;
@@ -749,7 +760,9 @@ figcaption span {
   text-transform: lowercase;
 }
 
-.contact p::first-letter { text-transform: uppercase; }
+.contact p::first-letter {
+  text-transform: uppercase;
+}
 
 .phone-email {
   display: flex;
@@ -805,7 +818,9 @@ figcaption span {
   text-transform: lowercase;
 }
 
-.right-contact { background-color: white; }
+.right-contact {
+  background-color: white;
+}
 
 .input-info {
   display: flex;
@@ -816,7 +831,9 @@ figcaption span {
   gap: 15px;
 }
 
-.info { width: 47%; }
+.info {
+  width: 47%;
+}
 
 input {
   width: 80%;
@@ -849,7 +866,9 @@ textarea {
   justify-content: space-around;
 }
 
-textarea::placeholder { text-transform: capitalize; }
+textarea::placeholder {
+  text-transform: capitalize;
+}
 
 .right-contact {
   padding: 25px;
@@ -883,11 +902,109 @@ textarea::placeholder { text-transform: capitalize; }
 /*=================================
   contact styling ends here
 =================================*/
+/*=================================
+  offer styling starts here
+=================================*/
+.offer .wrapper {
+  width: 80%;
+  margin: 100px 10% 50px;
+}
 
+.offer .span-heading {
+  text-align: center;
+}
+
+.meal {
+  margin-top: 30px;
+}
+
+.meal-type {
+  display: flex;
+  margin: auto;
+  width: 34%;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 14px;
+}
+
+.meal-type a {
+  font-weight: 600;
+  color: black;
+}
+
+.meal-type a:hover {
+  color: #fb6355;
+}
+
+.meal-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6%;
+}
+
+.meal-list li {
+  width: 47%;
+  margin-bottom: 26px;
+}
+
+.meal-list figure {
+  display: flex;
+  gap: 10px;
+}
+
+.meal img {
+  width: 25%;
+  height: 95px;
+  border-radius: 2px;
+  margin: auto;
+}
+
+.list-center {
+  width: 77%;
+  padding: 2%;
+}
+
+.list-center h6 {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 42px;
+}
+
+.list-center p {
+  font-size: 12px;
+  font-weight: 450;
+  color: #484545;
+}
+
+figcaption {
+  display: flex;
+  gap: 7%;
+  justify-content: center;
+}
+
+.list-right span {
+  background-color: #fb6355;
+  font-size: 16px;
+  font-weight: 800;
+  margin: auto;
+  color: aliceblue;
+}
+
+.list-right {
+  display: flex;
+  background-color: #fb6355;
+  width: 18%;
+  margin: auto;
+  height: 65px;
+  border-radius: 3px;
+}
+
+/*=================================
+  offer styling ends here
+=================================*/
 /*=================================
   main styling ends here
 =================================*/
-
 /*=================================
   footer styling starts here
 =================================*/
