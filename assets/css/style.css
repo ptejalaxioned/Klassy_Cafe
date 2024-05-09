@@ -999,7 +999,389 @@ footer .linkedin::before { content: "\f08c"; }
 =================================*/
 
 /*media query starts*/
-/*media query for 995px starts here*/
+/*media query for 375px starts here*/
+@media only screen and (max-width: 480px) {
+/*=================================
+  header styling starts here
+  =================================*/
+
+  header .wrapper 
+  {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 20px 5%;
+ }
+
+.navigation{ width: 9%; }
+img { width: 70%; }
+.navigation .navbar { display: none; }
+.navigation a{ color: aliceblue; }
+
+.navigation a:hover {
+    color: #808080f5;
+    color: aliceblue;
+    color:#484545;
+    transition: none;
+  }
+
+  .navigation::after {
+    position: relative;
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    margin: 0px 0 0px 24%;
+  }
+
+  .navigation::after{
+    position: relative;
+    font-size: 17px;
+  }
+
+  .navbar {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 14%;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fb6355;
+    z-index: 10;
+    text-align: center;
+  }
+
+.features-a{ position: relative; }
+
+.sub-list{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+  }
+
+  .navbar li {
+    padding: 10px 0;
+    color: #fff;
+  }
+
+  .navigation:hover .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .features:hover .sub-list {
+    left: 0%;
+    width: 100vw;
+    background-color: #484545;
+    padding: 28px 0px;
+  }
+
+  .sub-list a{ color: aliceblue; }
+  /*=================================
+  header styling ends here
+  =================================*/
+
+  /*=================================
+  banner section styling starts here
+  =================================*/
+  .banner-right { width: 60%; }
+  .banner-right img { width: 100%; }
+
+ .banner-left-text {
+  width: 100%;
+  padding: 15px;
+}
+
+.banner-left-text p{
+  letter-spacing: 1px;
+}
+
+.banner-left-text a {
+  padding: 10px 10px;
+  color: #fb6355;
+  background-color: aliceblue;
+  border-radius: 4px;
+  font-size: 10px;
+  margin-top: 13px;
+}
+
+.banner .wrapper { height: 80vh; }
+.banner-right img { height: 80vh; }
+.previous-arrow IMG{ height: 2vh;}
+
+.previous-arrow {
+transform: translate(-50%,-50%);
+top: 50%;
+left: 13%;
+background-color: #fb6355a1;
+padding: 5px 7px;
+padding-right: 14px;
+}
+
+.banner-left-text a:hover {
+  background-color:aliceblue;
+  color: #fb6355;
+}
+
+.previous-arrow:hover {
+  background-color:#fb6355a1;
+  transition: none;
+}
+
+.banner-left {
+  width: 38%;
+}
+.banner-left-text h2 {
+font-size: 35px;
+}
+
+.banner-left-text p {
+  letter-spacing: 1px;
+  font-size: 11px;
+}
+.banner-left-text a {
+  padding: 10px 21px;
+}
+/*=================================
+ banner section styling ends here
+ =================================*/
+
+ /*=================================
+  memory section styling starts here
+  =================================*/
+
+ .memory .wrapper {
+  width: 90%;
+  flex-direction: column;
+  padding: 60px 0px;
+  gap: 45px;
+
+}
+.memory-left {
+  width: 100%;
+  gap: 13px;
+}
+.memory-right {
+  width: 100%;
+}
+ .memory-right img {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: auto; 
+}
+
+.video-bg {
+  width: 90%;
+}
+
+.common-heading {
+  font-size: 28px;
+}
+.close {
+  width: 7%;
+  top: 7%;
+  right: 7%;
+}
+/*=================================
+ memory section styling ends here
+ =================================*/
+
+ /*=================================
+ menu section styling ends here
+ =================================*/
+ .menu .wrapper {
+  padding: 60px 0px 20px;
+  text-align: center;
+ }
+
+.span-heading {
+  width: 86%;
+  margin: 0% 7%;
+}
+
+.menu .span-heading { margin-left: 7%; }
+
+.menu ul {
+  flex-direction: column;
+  gap: 30px;
+}
+.menu figure{ text-align: center; }
+
+.menu-list {
+  margin: auto;
+  width:70%
+}
+.menu-list img{ width: 100%; }
+.span-heading h3 { margin: 17px 0px; }
+
+.next-previous {
+gap: 8px;
+padding: 16px
+}
+
+.next-previous figure {
+  width: 5%;
+ PADDING: 0PX;
+}
+
+.next-previous figure:hover {
+  background-color: #fb6355;
+  transition: NONE;
+}
+
+.inside-text {
+  width: 78%;
+  text-align: left;
+}
+ /*=================================
+ menu section styling ends here
+ =================================*/
+
+  /*=================================
+ chef section styling starts here
+ =================================*/
+ .chef .wrapper {
+  width: 90%;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.chef ul {
+  flex-direction: column;
+  align-items: center;
+  margin: 23px 0px;
+  gap: 25px;
+}
+
+.chef li { width: 80%; }
+/*=================================
+ chef section styling ends here
+ =================================*/
+
+/*=================================
+ contact section styling ends here
+ =================================*/
+.contact-box {
+flex-direction: column;
+gap: 6%;
+margin: 60px 5%;
+text-align: center;
+align-items: center;
+}
+
+.contact img {
+  height: 1520px;
+  width: 100%;
+}
+
+.left-contact {
+  width: 100%; 
+  margin-bottom: 55px;
+}
+
+.contact .span-heading { width: 90%; }
+.contact p { margin: 20px 0px 45px; }
+
+.phone-email {
+flex-direction: column;
+align-items: center;
+gap: 45px;
+}
+
+.phone-email li { width: 55%; }
+.right-contact { width: 80%; }
+.info { width: 90%; }
+textarea { width: 77%; }
+.contact h4 { margin: 20px 0px; }
+
+.orange {
+  width: 80%;
+  margin: auto;
+}
+
+.orange:hover {
+  background-color: #fb6355;
+  transition: none;
+}
+/*=================================
+ contact section styling ends here
+ =================================*/
+
+ /*=================================
+ offer section styling starts here
+ =================================*/
+ .offer .wrapper {
+  width: 90%;
+  margin: 60px 5% 25px;
+}
+
+.meal-type {
+ width: 60%;
+ font-size: 12px;
+ margin: auto;
+}
+
+.meal-type img { width: 100%; }
+.meal-list li { width: 100%; }
+.meal img { width: 25%; }
+
+.list-center h6 {
+  font-weight: 700;
+  font-size: 17px;
+ line-height: 33px; 
+}
+
+.list-right span { font-size: 13px; }
+
+.list-right {
+  width: 18%;
+  height: 50px;
+}
+
+.meal-type a:hover {
+  color:black;
+  transition: none;
+}
+
+.meal {
+  margin-top: 20px;
+}
+/*=================================
+ offer section styling ends here
+ =================================*/
+ /*=================================
+ fotter section styling starts here
+ =================================*/
+ footer .wrapper {
+flex-direction: column; 
+align-items: center;
+gap: 20px;
+padding: 8% 10%;
+}
+
+.footer-right {
+  flex: none;
+  text-align: center;
+}
+.footer-left ul { gap: 8px; }
+
+footer a:hover::before {
+  background-color: aliceblue;
+  transition: none;
+}
+
+.span-heading h3 { margin: 15px 0px; }
+ /*=================================
+ footer section styling ends here
+ =================================*/
+}
+
+
+
+/*media query starts*/
+/*media query for 375px starts here*/
 @media only screen and (max-width: 375px) {
 
   /*=================================
