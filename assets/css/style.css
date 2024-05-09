@@ -211,13 +211,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.all-caps {
-  text-transform: uppercase;
-}
-
-a {
-  color: aliceblue;
-}
+.all-caps { text-transform: uppercase; }
+a { color: aliceblue; }
 
 header .wrapper {
   display: flex;
@@ -226,17 +221,9 @@ header .wrapper {
   padding: 15px 0px;
 }
 
-header ul {
-  display: flex;
-}
-
-.sub-list {
-  display: none;
-}
-
-.sub-list li {
-  padding: 5px;
-}
+header ul { display: flex; }
+.sub-list { display: none; }
+.sub-list li { padding: 5px; }
 
 .features:hover .sub-list {
   display: block;
@@ -249,6 +236,7 @@ header ul {
   top: 130%;
   left: 41%;
   width: 9vw;
+  transition: .3s;
 }
 
 .navigation {
@@ -272,8 +260,9 @@ header ul {
   letter-spacing: 1px;
 }
 
-.navbar a:hover {
+.navbar a:hover { 
   color: #fb6355;
+  transition: .3s;
 }
 
 .features-a::after {
@@ -283,14 +272,12 @@ header ul {
   font-weight: lighter;
 }
 
-.sub-list a:hover {
+.sub-list a:hover { 
   color: aliceblue;
+  transition: .3s; 
 }
 
-.features {
-  position: relative;
-}
-
+.features { position: relative; }
 /*=================================
   Header styling ends here
 =================================*/
@@ -374,13 +361,14 @@ header ul {
   height: 3.5vh;
 }
 
-.previous-arrow:hover {
+.previous-arrow:hover { 
   background-color: #808080d4;
+  transition: .3s;
 }
-
 /*=================================
   banner styling ends here
 =================================*/
+
 /*=================================
   memory styling starts here
 =================================*/
@@ -403,9 +391,7 @@ header ul {
   width: 45%;
 }
 
-.common-span::before {
-  width: 6%;
-}
+.common-span::before { width: 6%; }
 
 .common-span::before {
   display: inline-block;
@@ -433,9 +419,7 @@ header ul {
   color: #2788e7;
 }
 
-.memory p {
-  font-size: 13px;
-}
+.memory p { font-size: 13px; }
 
 .dishes {
   display: flex;
@@ -443,9 +427,7 @@ header ul {
   justify-content: space-between;
 }
 
-.dishes img {
-  width: 30%;
-}
+.dishes img { width: 30%; }
 
 .memory-right::before {
   font-family: "FontAwesome";
@@ -490,18 +472,16 @@ header ul {
   z-index: 3;
 }
 
-.img2,
-.img3 {
-  visibility: hidden;
-}
+.img2,.img3 { visibility: hidden; }
 
-.memory-right:hover .modal {
+.memory-right:hover .modal { 
   display: block;
+  transition: .3s;
 }
-
 /*=================================
   memory styling ends here
 =================================*/
+
 /*=================================
   menu styling starts here
 =================================*/
@@ -517,17 +497,9 @@ header ul {
   text-transform: lowercase;
 }
 
-.span-heading h3::first-letter {
-  text-transform: capitalize;
-}
-
-.menu .span-heading {
-  margin-left: 10%;
-}
-
-.span-heading h3 {
-  margin: 17px 0px 60px;
-}
+.span-heading h3::first-letter { text-transform: capitalize; }
+.menu .span-heading { margin-left: 10%; }
+.span-heading h3 { margin: 17px 0px 60px; }
 
 .menu ul {
   display: flex;
@@ -537,9 +509,7 @@ header ul {
 }
 
 .list-image5,
-.list-image6 {
-  display: none;
-}
+.list-image6 { display: none; }
 
 .next-previous {
   display: flex;
@@ -556,21 +526,10 @@ header ul {
   border-radius: 27px;
 }
 
-.next-previous figure:nth-child(1) {
-  padding-right: 8px;
-}
-
-.next-previous figure:nth-child(2) {
-  padding-left: 8px;
-}
-
-.next-previous img {
-  width: 100%;
-}
-
-.menu .common-span::before {
-  width: 3%;
-}
+.next-previous figure:nth-child(1) { padding-right: 8px; }
+.next-previous figure:nth-child(2) { padding-left: 8px; }
+.next-previous img { width: 100%; }
+.menu .common-span::before { width: 3%; }
 
 .menu ul span {
   background-color: #fb6355;
@@ -584,13 +543,8 @@ header ul {
   border-radius: 3px;
 }
 
-.menu-list {
-  position: relative;
-}
-
-.menu-list img {
-  border-radius: 3px;
-}
+.menu-list { position: relative; }
+.menu-list img { border-radius: 3px; }
 
 .inside-text {
   width: 79%;
@@ -615,9 +569,7 @@ header ul {
   padding: 15px 0px;
 }
 
-.inside-text p::first-letter {
-  text-transform: uppercase;
-}
+.inside-text p::first-letter { text-transform: uppercase; }
 
 .inside-text a {
   font-size: 12px;
@@ -633,21 +585,17 @@ header ul {
   padding-bottom: 3px;
 }
 
-.inner-text {
-  display: none;
-}
+.inner-text { display: none; }
+.inside-text:hover .inner-text { display: block; }
 
-.inside-text:hover .inner-text {
-  display: block;
+.next-previous figure:hover { 
+  background-color: #808080d4; 
+  transition: .3s;
 }
-
-.next-previous figure:hover {
-  background-color: #808080d4;
-}
-
 /*=================================
   menu styling ends here
 =================================*/
+
 /*=================================
   chef styling starts here
 =================================*/
@@ -676,18 +624,14 @@ header ul {
   border-radius: 2px;
 }
 
-.chef li {
-  width: 31%;
-}
+.chef li { width: 31%; }
 
 .chef ul {
   display: flex;
   justify-content: space-between;
 }
 
-figcaption {
-  padding: 9px 0px 18px;
-}
+figcaption { padding: 9px 0px 18px; }
 
 figcaption h5 {
   font-size: 19px;
@@ -699,10 +643,10 @@ figcaption span {
   font-weight: 500;
   color: #484545fc;
 }
-
 /*=================================
   chef styling ends here
 =================================*/
+
 /*=================================
   contact styling starts here
 =================================*/
@@ -712,9 +656,7 @@ figcaption span {
   position: relative;
 }
 
-.contact img {
-  height: 788px;
-}
+.contact img { height: 788px; }
 
 .contact-box {
   position: absolute;
@@ -726,22 +668,16 @@ figcaption span {
   margin: 162px 10%;
 }
 
-.left-contact {
-  width: 51%;
-}
+.left-contact { width: 51%; }
 
-.right-contact {
-  width: 43%;
-}
+.right-contact { width: 43%; }
 
 .contact .common-heading {
   font-size: 28.7px;
   margin-bottom: 0px;
 }
 
-.contact .span-heading {
-  width: 100%;
-}
+.contact .span-heading { width: 100%; }
 
 .contact .common-span {
   font-size: 14px;
@@ -749,9 +685,7 @@ figcaption span {
   font-weight: 600;
 }
 
-.common-span::before {
-  border-color: aliceblue;
-}
+.common-span::before { border-color: aliceblue; }
 
 .contact p {
   font-size: 13px;
@@ -760,9 +694,7 @@ figcaption span {
   text-transform: lowercase;
 }
 
-.contact p::first-letter {
-  text-transform: uppercase;
-}
+.contact p::first-letter { text-transform: uppercase; }
 
 .phone-email {
   display: flex;
@@ -817,10 +749,11 @@ figcaption span {
   font-size: 13.5px;
   text-transform: lowercase;
 }
-
-.right-contact {
-  background-color: white;
+.detailes a:hover{
+color: #fb6355;
 }
+
+.right-contact { background-color: white; }
 
 .input-info {
   display: flex;
@@ -831,9 +764,7 @@ figcaption span {
   gap: 15px;
 }
 
-.info {
-  width: 47%;
-}
+.info { width: 47%; }
 
 input {
   width: 80%;
@@ -898,10 +829,14 @@ textarea::placeholder {
   text-align: center;
   padding: 12px;
 }
-
+.orange:hover{
+  background-color: #484545b4;
+  transition: .3s;
+}
 /*=================================
   contact styling ends here
 =================================*/
+
 /*=================================
   offer styling starts here
 =================================*/
@@ -910,13 +845,8 @@ textarea::placeholder {
   margin: 100px 10% 50px;
 }
 
-.offer .span-heading {
-  text-align: center;
-}
-
-.meal {
-  margin-top: 30px;
-}
+.offer .span-heading { text-align: center; }
+.meal { margin-top: 30px; }
 
 .meal-type {
   display: flex;
@@ -932,8 +862,9 @@ textarea::placeholder {
   color: black;
 }
 
-.meal-type a:hover {
+.meal-type a:hover { 
   color: #fb6355;
+  transition: .3s;
 }
 
 .meal-list {
@@ -953,7 +884,7 @@ textarea::placeholder {
 }
 
 .meal img {
-  width: 25%;
+  width: 20%;
   height: 95px;
   border-radius: 2px;
   margin: auto;
@@ -976,15 +907,14 @@ textarea::placeholder {
   color: #484545;
 }
 
-figcaption {
+.meal-list figcaption {
   display: flex;
-  gap: 7%;
   justify-content: center;
 }
 
 .list-right span {
   background-color: #fb6355;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 800;
   margin: auto;
   color: aliceblue;
@@ -998,6 +928,7 @@ figcaption {
   height: 65px;
   border-radius: 3px;
 }
+
 /*=================================
   offer styling ends here
 =================================*/
@@ -1009,33 +940,49 @@ figcaption {
   footer styling starts here
 =================================*/
 
-footer .wrapper{
+footer .wrapper {
   background-color: #fb6355;
   display: flex;
   width: 80%;
   justify-content: space-between;
   padding: 4% 10%;
 }
-footer img{
-  width: 100%;
-}
-.footer-right{
-display: flex;
-flex-direction: column;
-color: aliceblue;
-font-size: 14px;
-font-weight: 600;
+
+footer img { width: 100%; }
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: end;
 }
 
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-left ul {
+  display: flex;
+  gap: 18px;
+}
 
 footer a::before {
   float: right;
   text-indent: 0;
   font-family: "FontAwesome";
-  color:#fb6355;
-  padding: 20px;
+  color: #fb6355;
+  padding: 10px 11px;
   background-color: aliceblue;
   border-radius: 39px;
+  font-size: 20px;
+  width: 44%;
+}
+footer a:hover::before{
+background-color: #484545b4;
+transition: .3s;
 }
 
 footer a {
@@ -1043,24 +990,10 @@ footer a {
   float: left;
 }
 
-footer .twitter::before {
-  content: "\f081";
-}
-
-footer .facebook::before {
-  content: "\f082";
-}
-
-footer .instagram::before {
-  content: "\f16d";
-}
-
-footer .linkedin::before {
-  content: "\f08c";
-}
-
-
-
+footer .twitter::before { content: "\f099"; }
+footer .facebook::before { content: "\f09a"; }
+footer .instagram::before { content: "\f16d"; }
+footer .linkedin::before { content: "\f08c"; }
 /*=================================
   footer styling ends here
 =================================*/
