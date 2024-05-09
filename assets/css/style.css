@@ -1085,7 +1085,6 @@ img { width: 70%; }
   /*=================================
   banner section styling starts here
   =================================*/
-  .banner-right { width: 60%; }
   .banner-right img { width: 100%; }
 
  .banner-left-text {
@@ -1129,20 +1128,16 @@ padding-right: 14px;
   transition: none;
 }
 
-.banner-left {
-  width: 38%;
-}
-.banner-left-text h2 {
-font-size: 35px;
-}
+.banner-left { width: 38%; }
+.banner-left-text h2 { font-size: 35px; }
 
 .banner-left-text p {
   letter-spacing: 1px;
   font-size: 11px;
 }
-.banner-left-text a {
-  padding: 10px 21px;
-}
+
+.banner-left-text a { padding: 10px 21px; }
+.banner-right { width: 62%; }
 /*=================================
  banner section styling ends here
  =================================*/
@@ -1150,7 +1145,6 @@ font-size: 35px;
  /*=================================
   memory section styling starts here
   =================================*/
-
  .memory .wrapper {
   width: 90%;
   flex-direction: column;
@@ -1232,9 +1226,19 @@ padding: 16px
 }
 
 .inside-text {
-  width: 78%;
+    width: 82%;
   text-align: left;
 }
+.next-previous figure:nth-child(1) {
+  padding-right: 9px;
+}
+.next-previous figure:nth-child(2) {
+  padding-left: 9px;
+}
+  .next-previous figure {
+      width: 4%;
+      PADDING: 2PX 2px;
+  }
  /*=================================
  menu section styling ends here
  =================================*/
