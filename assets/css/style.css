@@ -180,11 +180,21 @@ sub {
   *zoom: 1;
 }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
 /*for all*/
-body {
+/* body {
   box-sizing: border-box;
   font-family: sans-serif;
-}
+} */
 
 a {
   display: inline-block;
@@ -313,9 +323,9 @@ header ul { display: flex; }
 }
 
 .banner-left-text {
-  width: 60%;
   color: aliceblue;
   padding: 28px;
+  width: 65%;
 }
 
 .banner-left-text h2 {
@@ -366,6 +376,7 @@ header ul { display: flex; }
   background-color: #808080d4;
   transition: .3s;
 }
+
 /*=================================
   banner styling ends here
 =================================*/
@@ -521,7 +532,7 @@ header ul { display: flex; }
 }
 
 .next-previous figure {
-  width: 1.5%;
+  width: 2.5%;
   background-color: #fb6355;
   PADDING: 2PX;
   border-radius: 27px;
@@ -544,11 +555,11 @@ header ul { display: flex; }
   border-radius: 3px;
 }
 
-.menu-list { position: relative; }
-.menu-list img { border-radius: 3px; }
+.menu-list { position: relative; overflow: hidden; }
+.menu-list img { border-radius: 3px;}
 
 .inside-text {
-  width: 79%;
+  width: 100%;
   background-color: #fb6355;
   z-index: 2;
   position: absolute;
@@ -556,6 +567,8 @@ header ul { display: flex; }
   padding: 25px 30px;
   padding-bottom: 5px;
   border-radius: 3px;
+  transform: translateY(120px);
+  transition: transform 1s;
 }
 
 .inside-text h4 {
@@ -586,13 +599,28 @@ header ul { display: flex; }
   padding-bottom: 3px;
 }
 
-.inner-text { display: none; }
-.inside-text:hover .inner-text { display: block; }
+/* .inner-text { display: none; }
+.inside-text:hover .inner-text {
+display: block;
+} */
+/* 
+.inside-text:hover {
+  transition: 1s ease-in-out;
+  transform: translateY(-10px);
+} */
+
+.inside-text:hover {
+  /* transition: transform 1s; */
+  /* transform: translateY(120px); */
+  transform: translateY(0px);
+}
 
 .next-previous figure:hover { 
   background-color: #808080d4; 
-  transition: .3s;
+  /* transition: .3s; */
+  /* transform: translateY(100%); */
 }
+
 /*=================================
   menu styling ends here
 =================================*/
@@ -731,7 +759,7 @@ figcaption span {
 .phone span::before {
   background-color: #fb6355;
   color: aliceblue;
-  width: 11%;
+  width: 25%;
   padding: 23px 21px;
   border-radius: 40px;
   font-size: 22px;
@@ -760,7 +788,7 @@ color: #fb6355;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   gap: 15px;
 }
@@ -768,7 +796,7 @@ color: #fb6355;
 .info { width: 47%; }
 
 input {
-  width: 80%;
+  width: 100%;
   height: 40px;
   padding: 0px 20px;
   border: .1px solid #48454565;
@@ -783,7 +811,7 @@ input {
 }
 
 textarea {
-  width: 89%;
+  width: 100%;
   height: 100px;
   padding: 5%;
   border-radius: 3px;
@@ -795,7 +823,6 @@ textarea {
 .msg {
   width: 100%;
   display: flex;
-  justify-content: space-around;
 }
 
 textarea::placeholder { text-transform: capitalize; }
@@ -977,7 +1004,7 @@ footer a::before {
   background-color: aliceblue;
   border-radius: 39px;
   font-size: 20px;
-  width: 44%;
+  width: 100%;
 }
 footer a:hover::before{
 background-color: #484545b4;
@@ -996,6 +1023,9 @@ footer .linkedin::before { content: "\f08c"; }
 /*=================================
   footer styling ends here
 =================================*/
+
+/*media query starts*/
+/*media query for 1024px starts here*/
 
 /*media query starts*/
 /*media query for 1024px starts here*/
@@ -1020,13 +1050,14 @@ textarea {
     text-transform: lowercase;
 }
 
-.menu li{ width: 22%; }
+.menu-list{ width: 22%; }
 
 .menu ul {
   justify-content: center;
   padding: 0px 0px;
   gap: 21px;
 }
+
 .inside-text { width: 85%; }
 .inside-text h4 { font-size: 18px; }
 
@@ -1049,7 +1080,7 @@ textarea {
   margin: 100px 5%;
 }
 textarea {
-  width: 92%;
+  width: 100%;
 }
 
 .contact img {
@@ -1248,7 +1279,7 @@ footer .wrapper{
     }
     
     .inside-text {
-      width: 78%;
+      width: 100%;
       text-align: left;
     }
 
@@ -1330,7 +1361,7 @@ footer .wrapper{
       .orange {
         width: 76%;
         margin: auto;
-      }
+      } 
       
       .orange:hover {
         background-color: #fb6355;
@@ -1629,6 +1660,7 @@ footer .wrapper{
       margin: 0px;
       width: 40%;
     }
+    
     .menu-list img{ width: 100%; }
     .span-heading h3 { margin: 17px 0px; }
     
@@ -2842,10 +2874,10 @@ padding: 16px
   transition: NONE;
 }
 
-.inside-text {
+/* .inside-text {
   width: 78%;
   text-align: left;
-}
+} */
  /*=================================
  menu section styling ends here
  =================================*/
