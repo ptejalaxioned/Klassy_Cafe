@@ -1382,12 +1382,13 @@ footer .linkedin::before { content: "\f08c"; }
   align-items: center;
   gap: 20px;
   padding: 8% 10%;
-  justify-content: center;
+  justify-content: space-around;
   }
   
   .footer-right {
     flex: none;
     text-align: center;
+    width: 100%;
   }
   .footer-left ul { gap: 8px; }
   
@@ -1396,6 +1397,11 @@ footer .linkedin::before { content: "\f08c"; }
     transition: none;
   }
   
+  .footer-left {
+    display: flex;
+    align-items: center;
+    width: 35%;
+}
   .span-heading h3 { margin: 15px 0px; }
    /*=================================
    footer section styling ends here
