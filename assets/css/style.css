@@ -1415,7 +1415,6 @@ footer .linkedin::before { content: "\f08c"; }
   /*=================================
     header styling starts here
     =================================*/
-  
     header .wrapper 
     {
       display: flex;
@@ -1425,7 +1424,7 @@ footer .linkedin::before { content: "\f08c"; }
    }
   
   .navigation{ width: 5%; }
-  img { width: 70%; }
+  img { width: 80%; }
   .navigation .navbar { display: none; }
   .navigation a{ color: aliceblue; }
   
@@ -1516,8 +1515,8 @@ footer .linkedin::before { content: "\f08c"; }
     margin-top: 13px;
   }
   
-  .banner .wrapper { height: 80vh; }
-  .banner-right img { height: 80vh; }
+  .banner .wrapper { height: 85vh; }
+  .banner-right img { height: 85vh; }
   .previous-arrow IMG{ height: 2vh;}
   
   .previous-arrow {
@@ -1603,7 +1602,7 @@ footer .linkedin::before { content: "\f08c"; }
       padding: 70px 0px 34px;
       text-align: center;
      }
-    
+     80%
     .span-heading {
       width: 86%;
       margin: 0% 7%;
