@@ -998,6 +998,62 @@ footer .linkedin::before { content: "\f08c"; }
 =================================*/
 
 /*media query starts*/
+/*media query for 1024px starts here*/
+@media only screen and (max-width: 1024px) {
+.navigation {
+    width: 54%;
+}
+  .span-heading {
+    width: 39%;
+    margin: auto;
+    text-transform: lowercase;
+}
+
+.menu li{ width: 22%; }
+
+.menu ul {
+  justify-content: center;
+  padding: 0px 0px;
+  gap: 21px;
+}
+.inside-text { width: 85%; }
+.inside-text h4 { font-size: 18px; }
+
+.inside-text {
+  padding: 24px 17px;
+  padding-bottom: 5px;
+}
+
+.inside-text p {
+  font-size: 12px;
+  padding: 7px 0px;
+}
+.next-previous figure { PADDING: 2PX 5px; }
+.next-previous figure:nth-child(1) { padding-right: 10px; }
+.next-previous figure:nth-child(2) { padding-left: 10px; }
+
+}
+
+.contact-box{
+  margin: 100px 5%;
+}
+textarea {
+  width: 92%;
+}
+
+.contact img {
+  height: 730px;
+}
+
+.offer .wrapper {
+  width: 90%;
+  margin: 100px 5% 50px;
+}
+footer .wrapper{
+  width: 90%;
+  padding: 65px 5%;
+}
+/*media query starts*/
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
   /*=================================
@@ -1022,6 +1078,8 @@ footer .linkedin::before { content: "\f08c"; }
     z-index: 2;
     width: 200vw;
   }
+
+  
 
   .navbar a { font-size: 15px; }
     /*=================================
