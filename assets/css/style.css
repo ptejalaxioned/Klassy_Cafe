@@ -1680,8 +1680,61 @@ footer .linkedin::before { content: "\f08c"; }
 
     .chef figure { width: 100%; }
     .chef li { width: 40%; }
-   
+    /*=================================
+     chef section styling ends here
+     =================================*/
     
+    /*=================================
+     contact section styling ends here
+     =================================*/
+     .contact-box {
+      flex-direction: column;
+      gap: 6%;
+      margin: 70px 7.5%;
+      text-align: center;
+      align-items: center;
+      width: 85%
+      }
+      
+      .contact img {
+        height: 1280px;
+        width: 100%;
+      }
+      
+      .left-contact {
+        width: 100%; 
+        margin-bottom: 55px;
+      }
+      
+      .contact .span-heading { width: 90%; }
+      .contact p { margin: 20px 0px 55px; }
+      
+      .phone-email {
+      align-items: center;
+      gap: 40px;
+      margin: auto;
+      justify-content: center;
+      }
+      
+      .phone-email li { width: 36%; }
+      .right-contact { width: 80%; }
+      .info { width: 90%; }
+      textarea { width: 70%; }
+      .contact h4 { margin: 20px 0px; }
+      
+      .orange {
+        width: 76%;
+        margin: auto;
+      }
+      
+      .orange:hover {
+        background-color: #fb6355;
+        transition: none;
+      }
+      /*=================================
+       contact section styling ends here
+       =================================*/
+      
 }
 
 
