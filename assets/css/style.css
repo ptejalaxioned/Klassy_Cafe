@@ -1163,7 +1163,7 @@ footer .linkedin::before { content: "\f08c"; }
     
     .menu-list {
       margin: 0px;
-      width: 40%;
+      width: 27%;
     }
     .menu-list img{ width: 100%; }
     .span-heading h3 { margin: 17px 0px; }
@@ -1179,7 +1179,7 @@ footer .linkedin::before { content: "\f08c"; }
     }
     
     .inside-text {
-        width: 85%;
+      width: 78%;
       text-align: left;
     }
 
@@ -1215,7 +1215,7 @@ footer .linkedin::before { content: "\f08c"; }
     }
 
     .chef figure { width: 100%; }
-    .chef li { width: 40%; }
+    .chef li { width: 32%; }
     /*=================================
      chef section styling ends here
      =================================*/
