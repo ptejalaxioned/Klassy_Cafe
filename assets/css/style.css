@@ -999,6 +999,17 @@ footer .linkedin::before { content: "\f08c"; }
 
 /*media query starts*/
 /*media query for 1024px starts here*/
+@media only screen and (max-width: 1280px) {
+  .phone-email li {
+    width: 45%;
+}
+textarea {
+  width: 88%;
+}
+}
+
+/*media query starts*/
+/*media query for 1024px starts here*/
 @media only screen and (max-width: 1024px) {
 .navigation {
     width: 54%;
