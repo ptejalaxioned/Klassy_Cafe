@@ -1596,7 +1596,92 @@ footer .linkedin::before { content: "\f08c"; }
     /*=================================
      memory section styling ends here
      =================================*/
+   /*=================================
+     menu section styling ends here
+     =================================*/
+     .menu .wrapper {
+      padding: 70px 0px 34px;
+      text-align: center;
+     }
+    
+    .span-heading {
+      width: 86%;
+      margin: 0% 7%;
+    }
+    
+    .menu .span-heading { margin-left: 7%; }
+    
+    .menu ul {
+      flex-direction: column;
+      gap: 30px;
+    }
   
+    .menu ul {
+      flex-direction:row;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+     }
+  
+    .menu figure{ text-align: center; }
+    
+    .menu-list {
+      margin: 0px;
+      width: 40%;
+    }
+    .menu-list img{ width: 100%; }
+    .span-heading h3 { margin: 17px 0px; }
+    
+    .next-previous {
+    gap: 8px;
+    padding: 16px
+    }
+    
+    .next-previous figure:hover {
+      background-color: #fb6355;
+      transition: NONE;
+    }
+    
+    .inside-text {
+        width: 81%;
+      text-align: left;
+    }
+
+    .next-previous figure:nth-child(1) { padding-right: 9px; }
+    .next-previous figure:nth-child(2) { padding-left: 9px; }
+  
+    .next-previous figure {
+     width: 3%;
+     PADDING: 3PX 0px;
+     }
+
+    .menu .span-heading { margin: auto; }
+     /*=================================
+     menu section styling ends here
+     =================================*/
+    
+      /*=================================
+     chef section styling starts here
+     =================================*/
+     .chef .wrapper {
+      width: 90%;
+      text-align: center;
+      padding: 70px 0px;
+    }
+    
+    .chef ul {
+      flex-direction:row;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 31px 0px;
+      gap: 25px;
+      justify-content: center;
+    }
+
+    .chef figure { width: 100%; }
+    .chef li { width: 40%; }
+   
+    
 }
 
 
