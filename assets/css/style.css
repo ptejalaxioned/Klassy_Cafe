@@ -235,8 +235,9 @@ header ul { display: flex; }
   position: absolute;
   top: 130%;
   left: 41%;
-  width: 9vw;
+  width: 10vw;
   transition: .3s;
+  z-index: 2;
 }
 
 .navigation {
@@ -997,7 +998,351 @@ footer .linkedin::before { content: "\f08c"; }
 =================================*/
 
 /*media query starts*/
-/*media query for 640px starts here*/
+/*media query for 995px starts here*/
+@media only screen and (max-width: 995px) {
+  /*=================================
+    header styling starts here
+    =================================*/
+    header .wrapper 
+    {
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      padding: 20px 5%;
+   }
+
+   .navigation {
+    width: 53%;
+   }
+
+  img { width: 90%; }
+  
+  .sub-list
+  {
+    z-index: 2;
+    width: 200vw;
+  }
+
+  .navbar a { font-size: 15px; }
+    /*=================================
+    header styling ends here
+    =================================*/
+
+    /*=================================
+    banner section styling starts here
+    =================================*/
+    .banner-right img { width: 100%; }
+  
+   .banner-left-text {
+    width: 100%;
+    padding: 30px;
+  }
+  
+  .banner-left-text p{
+    letter-spacing: 1px;
+  }
+  
+  .banner-left-text a {
+    padding: 10px 10px;
+    color: #fb6355;
+    background-color: aliceblue;
+    border-radius: 4px;
+    font-size: 10px;
+    margin-top: 13px;
+  }
+  
+  .banner .wrapper { height: 85vh; }
+  .banner-right img { height: 85vh; }
+  .previous-arrow IMG{ height: 2vh;}
+  
+  .previous-arrow {
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 7%;
+  background-color: #fb6355a1;
+  padding: 7px 7px;
+  padding-right: 14px;
+  }
+  
+  .banner-left-text a:hover {
+    background-color:aliceblue;
+    color: #fb6355;
+  }
+  
+  .previous-arrow:hover {
+    background-color:#fb6355a1;
+    transition: none;
+  }
+  
+  .banner-left { width: 34%; }
+  .banner-left-text h2 { font-size: 51px; }
+  
+  .banner-left-text p {
+    letter-spacing: 1.5px;
+    font-size: 16px;
+  }
+  
+  .banner-left-text a {
+    padding: 11px 31px;
+    font-size: 14px;
+    }
+
+  .banner-right { width: 66%; }
+  /*=================================
+   banner section styling ends here
+   =================================*/
+
+   /*=================================
+    memory section styling starts here
+    =================================*/
+    .memory .wrapper {
+      width: 80%;
+      flex-direction: column;
+      padding: 80px 10%;
+      gap: 61px;
+  }
+
+    .memory-left {
+      width: 100%;
+      gap: 13px;
+    }
+    .memory-right {
+      width: 100%;
+    }
+     .memory-right img {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin: auto; 
+    }
+    
+    .video-bg {
+      width: 60%;
+    }
+    
+    .common-heading {
+      font-size: 28px;
+    }
+
+    .close {
+      width: 5%;
+      top: 6%;
+      right: 6%;
+  }
+    /*=================================
+     memory section styling ends here
+     =================================*/
+   /*=================================
+     menu section styling ends here
+     =================================*/
+     .menu .wrapper {
+      padding: 70px 0px 34px;
+      text-align: center;
+     }
+    
+    .span-heading {
+      width: 86%;
+      margin: 0% 7%;
+    }
+    
+    .menu .span-heading { margin-left: 7%; }
+    
+    .menu ul {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .menu ul {
+      flex-direction:row;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+     }
+  
+    .menu figure{ text-align: center; }
+    
+    .menu-list {
+      margin: 0px;
+      width: 40%;
+    }
+    .menu-list img{ width: 100%; }
+    .span-heading h3 { margin: 17px 0px; }
+    
+    .next-previous {
+    gap: 8px;
+    padding: 16px
+    }
+    
+    .next-previous figure:hover {
+      background-color: #fb6355;
+      transition: NONE;
+    }
+    
+    .inside-text {
+        width: 85%;
+      text-align: left;
+    }
+
+    .next-previous figure:nth-child(1) { padding-right: 11px; }
+    .next-previous figure:nth-child(2) { padding-left: 11px; }
+  
+    .next-previous figure {
+     width: 2%;
+     PADDING: 3PX 0px;
+     }
+
+    .menu .span-heading { margin: auto; }
+     /*=================================
+     menu section styling ends here
+     =================================*/
+    
+      /*=================================
+     chef section styling starts here
+     =================================*/
+     .chef .wrapper {
+      width: 90%;
+      text-align: center;
+      padding: 70px 0px;
+    }
+    
+    .chef ul {
+      flex-direction:row;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 31px 0px;
+      gap: 25px;
+      justify-content: center;
+    }
+
+    .chef figure { width: 100%; }
+    .chef li { width: 40%; }
+    /*=================================
+     chef section styling ends here
+     =================================*/
+    
+    /*=================================
+     contact section styling ends here
+     =================================*/
+     .contact-box {
+      flex-direction: column;
+      gap: 6%;
+      margin: 70px 7.5%;
+      text-align: center;
+      align-items: center;
+      width: 85%
+      }
+      
+      .contact img {
+        height: 1280px;
+        width: 100%;
+      }
+      
+      .left-contact {
+        width: 100%; 
+        margin-bottom: 55px;
+      }
+      
+      .contact .span-heading { width: 90%; }
+      .contact p { margin: 20px 0px 55px; }
+      
+      .phone-email {
+      align-items: center;
+      gap: 40px;
+      margin: auto;
+      justify-content: center;
+      }
+      
+      .phone-email li { width: 30%; }
+      .right-contact { width: 59%; }
+      .info { width: 90%; }
+      textarea { width: 70%; }
+      .contact h4 { margin: 20px 0px; }
+      
+      .orange {
+        width: 76%;
+        margin: auto;
+      }
+      
+      .orange:hover {
+        background-color: #fb6355;
+        transition: none;
+      }
+      /*=================================
+       contact section styling ends here
+       =================================*/
+      
+       /*=================================
+       offer section styling starts here
+       =================================*/
+       .offer .wrapper {
+        width: 90%;
+        margin: 60px 5% 25px;
+      }
+      
+      .meal-type {
+       width: 30%;
+       font-size: 12px;
+       margin: auto;
+       gap: 6px;
+      }
+      
+      .meal-type img { width: 100%; }
+      .meal-list li { width: 60%; }
+      .meal img { width: 20%; }
+      
+      .list-center h6 {
+        font-weight: 700;
+        font-size: 18px;
+       line-height: 33px; 
+      }
+      
+      .list-right span { font-size: 14px; }
+      
+      .list-right {
+        width: 18%;
+        height: 58px;
+      }
+      
+      .meal-type a:hover {
+        color:black;
+        transition: none;
+      }
+      
+      .meal { margin-top: 20px; }
+      .meal-list{ justify-content: center; }
+      .span-heading h3 { margin: 17px 0px; }
+    
+      .span-heading {
+       width: 55%;
+       margin: auto;
+      }
+
+      .list-center p { font-size: 13px; }
+
+      .meal-list figure {
+        gap: 20px;
+       }
+      /*=================================
+       offer section styling ends here
+       =================================*/
+       /*=================================
+       fotter section styling starts here
+       =================================*/
+       footer .wrapper {
+        width: 88%;
+        padding: 4% 6%;
+        }
+
+       .footer-left ul{ gap: 8px; }
+       /*=================================
+       footer section styling ends here
+       =================================*/
+    
+}
+
+
+/*media query starts*/
+/*media query for 776px starts here*/
 @media only screen and (max-width: 776px) {
   /*=================================
     header styling starts here
