@@ -1555,6 +1555,48 @@ footer .linkedin::before { content: "\f08c"; }
   /*=================================
    banner section styling ends here
    =================================*/
+
+   /*=================================
+    memory section styling starts here
+    =================================*/
+    .memory .wrapper {
+      width: 80%;
+      flex-direction: column;
+      padding: 80px 10%;
+      gap: 61px;
+  }
+
+    .memory-left {
+      width: 100%;
+      gap: 13px;
+    }
+    .memory-right {
+      width: 100%;
+    }
+     .memory-right img {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin: auto; 
+    }
+    
+    .video-bg {
+      width: 60%;
+    }
+    
+    .common-heading {
+      font-size: 28px;
+    }
+
+    .close {
+      width: 5%;
+      top: 6%;
+      right: 6%;
+  }
+    /*=================================
+     memory section styling ends here
+     =================================*/
+  
 }
 
 
