@@ -1,480 +1,715 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Client</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="assets/vendor/font-awesome/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" media="screen" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Client</title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-  <link rel="shortcut icon" href="favicon.ico" />
-
-  <link rel="stylesheet" media="screen" href="assets/vendor/font-awesome/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <link rel="stylesheet" media="screen" href="assets/css/style.css">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <!--container start-->
-  <div class="container">
-    <!--header section start-->
-    <header>
-      <div class="wrapper">
-        <div class="header-left">
-          <h1>
-            <a href="/" title="Logo" target="_self"><img src="./assets/images/images/klassy-logo.png" alt="Logo"></a>
-          </h1>
-        </div>
-        <nav class="navigation">
-          <ul class="navbar">
-            <li class="active"> <a href="/" title="Home" target="_self">home</a></li>
-            <li class="active"><a href="#fixme" title="About" target="_self">about</a></li>
-            <li class="active"><a href="#fixme" title="Menu" target="_self">menu</a></li>
-            <li class="active"><a href="#fixme" title="Chefs" target="_self">chefs</a></li>
-            <li class="active features"><a href="#fixme" title="Features" target="_self" class="features-a">features
-            </a>
-              <ul class="sub-list">
-                <li class="active"> <a href="/" title="Home" target="_self">home</a></li>
-                <li class="active"><a href="#fixme" title="About" target="_self">about</a></li>
-                <li class="active"><a href="#fixme" title="Menu" target="_self">menu</a></li>
-                <li class="active"><a href="#fixme" title="Chefs" target="_self">chefs</a></li>
-                <li class="active"><a href="#fixme" title="Features" target="_self">features</a></li>
-                <li class="active"><a href="#fixme" title="Contact Us" target="_self">contact us</a></li>
-              </ul>
-            </li>
-            <li class="active"><a href="#fixme" title="Contact Us" target="_self">contact us</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <!--header section start-->
-    <!--main section start-->
-    <main>
-      <!--banner section start-->
-      <section class="banner">
+  <body>
+    <!--container start-->
+    <div class="container">
+      <!--header section start-->
+      <header>
         <div class="wrapper">
-          <div class="banner-left">
-            <div class="banner-left-text">
-              <h2>klassy cafe</h2>
-              <p class="all-caps">the best experience</p>
-              <div class="buttons">
-                <a href="#fixme" title="Make a Reservation" target="_self">make a reservation</a>
+          <div class="header-left">
+            <h1>
+              <a href="/" title="Logo" target="_self"
+                ><img src="./assets/images/images/klassy-logo.png" alt="Logo"
+              /></a>
+            </h1>
+          </div>
+          <div class="header-right">
+            <nav class="navigation">
+              <ul class="navbar">
+                <li class="active">
+                  <a href="/" title="Home" target="_self">home</a>
+                </li>
+                <li class="active">
+                  <a href="#FIXME" title="About" target="_self">about</a>
+                </li>
+                <li class="active">
+                  <a href="#FIXME" title="Menu" target="_self">menu</a>
+                </li>
+                <li class="active">
+                  <a href="#FIXME" title="Chefs" target="_self">chefs</a>
+                </li>
+                <li class="active features">
+                  <a
+                    href="#FIXME"
+                    title="Features"
+                    target="_self"
+                    class="features-a"
+                    >features
+                  </a>
+                  <ul class="sub-list">
+                    <li class="active">
+                      <a href="/" title="Home" target="_self">home</a>
+                    </li>
+                    <li class="active">
+                      <a href="#FIXME" title="About" target="_self">about</a>
+                    </li>
+                    <li class="active">
+                      <a href="#FIXME" title="Menu" target="_self">menu</a>
+                    </li>
+                    <li class="active">
+                      <a href="#FIXME" title="Chefs" target="_self">chefs</a>
+                    </li>
+                    <li class="active">
+                      <a href="#FIXME" title="Features" target="_self"
+                        >features</a
+                      >
+                    </li>
+                    <li class="active">
+                      <a href="#FIXME" title="Contact Us" target="_self"
+                        >contact us</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="active">
+                  <a href="#FIXME" title="Contact Us" target="_self"
+                    >contact us</a
+                  >
+                </li>
+              </ul>
+            </nav>
+        </div>
+        <div class="hamburger">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+        </div>
+      </header>
+      <!--header section start-->
+      <!--main section start-->
+      <main>
+        <!--banner section start-->
+        <section class="banner">
+          <div class="wrapper">
+            <div class="banner-left">
+              <div class="banner-left-text">
+                <h2>klassy cafe</h2>
+                <p class="all-caps">the best experience</p>
+                <div class="buttons">
+                  <a href="#FIXME" title="Make a Reservation" target="_self"
+                    >make a reservation</a
+                  >
+                </div>
               </div>
             </div>
-          </div>
-          <div class="banner-right">
-          <figure class="img1">
-            <img src="./assets/images/images/slide-01.jpg" alt="Banner" class="banner-left-image">
-          </figure>
-          <figure class="img2">
-            <img src="./assets/images/images/slide-01.jpg" alt="Banner" class="banner-left-image">
-          </figure>
-          <figure class="img3"> 
-            <img src="./assets/images/images/slide-01.jpg" alt="Banner" class="banner-left-image">
-          </figure>
-          <figure class="previous-arrow">
-            <img src="./assets/images/images/prev.png" alt="Previous">
-          </figure>
-        </div>
-       
-        </div>
-      </section>
-      <!--banner section end-->
 
-      <!--memory section starts-->
-      <section class="memory">
-        <div class="wrapper">
-          <div class="memory-left">
-            <span class="all-caps common-span">about us</span>
-            <h3 class="common-heading">we leave a delicious memory for you</h3>
-            <p>Klassy cafe is one of the bext <a href="#fixme" title="Restaurant HTML Templates" target="_self">restaurant <span class="all-caps">HTML</span>
-                templates</a>
-              lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, molestiae. Quod molestias
-              accusantium quis aut voluptatibus, consequuntur provident possimus sed eveniet ducimus iste, voluptates
-              qui, dolores distinctio sit fugit nulla itaque non voluptate ex!</p>
-             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident facilis exercitationem qui iusto quo
-                eveniet dicta sed ipsa dignissimos veritatis.</p>
-            <figure class="dishes">
-               <img src="./assets/images/images/about-thumb-01.jpg" alt="Dish1">
-               <img src="./assets/images/images/about-thumb-02.jpg" alt="Dish2">
-               <img src="./assets/images/images/about-thumb-03.jpg" alt="Dish3">
+            <ul class="banner-right">
+              <li>
+                <img
+                  src="./assets/images/images/slide-01.jpg"
+                  alt="Banner"
+                  class="img1"
+                />
+              </li>
+              <li>
+                <img
+                  src="./assets/images/images/slide-01.jpg"
+                  alt="Banner"
+                  class="img2"
+                />
+              </li>
+              <li>
+                <img
+                  src="./assets/images/images/slide-01.jpg"
+                  alt="Banner"
+                  class="img3"
+                />
+              </li>
+            </ul>
+
+            <figure class="previous-arrow">
+              <img src="./assets/images/images/prev.png" alt="Previous" />
+            </figure>
+
+            <figure class="next-arrow">
+              <img src="./assets/images/images/next.png" alt="Next" />
             </figure>
           </div>
-          <figure class="memory-right">
-            <img src="./assets/images/images/about-video-bg.jpg" alt="Video">
-            <section class="modal">
+        </section>
+        <!--banner section end-->
+
+        <!--about-us section starts-->
+        <section class="about-us">
+          <div class="wrapper">
+            <div class="about-us-left">
+              <span class="all-caps section-span">about us</span>
+              <h3 class="section-heading">
+                we leave a delicious memory for you
+              </h3>
+              <p>
+                Klassy cafe is one of the bext
+                <a
+                  href="#FIXME"
+                  title="Restaurant HTML Templates"
+                  target="_blank"
+                  >restaurant <span class="all-caps">HTML</span> templates</a
+                >
+                lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed,
+                molestiae. Quod molestias accusantium quis aut voluptatibus,
+                consequuntur provident possimus sed eveniet ducimus iste,
+                voluptates qui, dolores distinctio sit fugit nulla itaque non
+                voluptate ex!
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Provident facilis exercitationem qui iusto quo eveniet dicta sed
+                ipsa dignissimos veritatis.
+              </p>
+              <figure class="dishes">
+                <img
+                  src="./assets/images/images/about-thumb-01.jpg"
+                  alt="Dish1"
+                />
+                <img
+                  src="./assets/images/images/about-thumb-02.jpg"
+                  alt="Dish2"
+                />
+                <img
+                  src="./assets/images/images/about-thumb-03.jpg"
+                  alt="Dish3"
+                />
+              </figure>
+            </div>
+            <figure class="about-us-right">
+              <img
+                src="./assets/images/images/about-video-bg.jpg"
+                alt="Restaurant"
+              />
+            </figure>
+            <div class="modal">
               <figure class="video-bg">
-                <img src="./assets/images/images/about-video-bg.jpg" alt="Video">
+                <img
+                  src="./assets/images/images/about-video-bg.jpg"
+                  alt="Video"
+                />
               </figure>
-              <figure class="close"> 
-                <img src="./assets/images/images/close.png" alt="Close">
+              <figure class="close">
+                <img src="./assets/images/images/close.png" alt="Close" />
               </figure>
-            </section>
-          </figure>
-      </div>
-      </section>
-      <!--memory section end-->
-
-      <!--menu section start-->
-<section class="menu">
-  <div class="wrapper">
-    <div class="span-heading">
-    <span class="all-caps common-span">our menu</span>
-    <h3 class="common-heading">our selection of cakes with quality taste</h3>
-    </div>
-    <ul>
-      <li class="menu-list list-image1">
-         <figure>
-             <img src="./assets/images/images/menu-item-01.jpg" alt="Menu Item1">
-         </figure>
-         <span>$8.50</span>
-         <div class="inside-text">
-          <h4>klassy cup cakes</h4>
-          <div class="inner-text">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor animi vitae, omnis earum voluptate accusamus?</p>
-            <a href="#fixme" title="Make Reservation" target="_self">make reservation</a>
+            </div>
           </div>
-         </div>
-      </li>
-      <li class="menu-list list-image2">
-        <figure>
-          <img src="./assets/images/images/menu-item-02.jpg" alt="Menu Item2">
-        </figure>
-        <span>$7.25</span>
-        <div class="inside-text">
-          <h4>klassic cake</h4>
-          <div class="inner-text">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor animi vitae, omnis earum voluptate accusamus?</p>
-            <a href="#fixme" title="Make Reservation" target="_self">make reservation</a>
+        </section>
+        <!--about-us section end-->
+
+        <!--menu section start-->
+        <section class="menu">
+          <div class="wrapper">
+            <span class="all-caps section-span">our menu</span>
+            <h3 class="section-heading">
+              our selection of cakes with quality taste
+            </h3>
+            <ul>
+              <li class="menu-list list-image1">
+                <figure>
+                  <img
+                    src="./assets/images/images/menu-item-01.jpg"
+                    alt="Menu Item1"
+                  />
+                  <figcaption>$8.50</figcaption>
+                </figure>
+                <div class="inside-text">
+                  <h4>klassy cup cakes</h4>
+                  <div class="inner-text">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Dolor animi vitae, omnis earum voluptate accusamus?
+                    </p>
+                    <a href="#FIXME" title="Make Reservation" target="_self"
+                      >make reservation</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li class="menu-list list-image2">
+                <figure>
+                  <img
+                    src="./assets/images/images/menu-item-02.jpg"
+                    alt="Menu Item2"
+                  />
+                  <figcaption>$7.25</figcaption>
+                </figure>
+                <div class="inside-text">
+                  <h4>klassic cake</h4>
+                  <div class="inner-text">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Dolor animi vitae, omnis earum voluptate accusamus?
+                    </p>
+                    <a href="#FIXME" title="Make Reservation" target="_self"
+                      >make reservation</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li class="menu-list list-image3">
+                <figure>
+                  <img
+                    src="./assets/images/images/menu-item-03.jpg"
+                    alt="Menu Item3"
+                  />
+                  <figcaption>$14</figcaption>
+                </figure>
+                <div class="inside-text">
+                  <h4>chocolate cake</h4>
+                  <div class="inner-text">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Dolor animi vitae, omnis earum voluptate accusamus?
+                    </p>
+                    <a href="#FIXME" title="Make Reservation" target="_self"
+                      >make reservation</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li class="menu-list list-image4">
+                <figure>
+                  <img
+                    src="./assets/images/images/menu-item-04.jpg"
+                    alt="Menu Item4"
+                  />
+                  <figcaption>$22</figcaption>
+                </figure>
+                <div class="inside-text">
+                  <h4>klassy pan cakes</h4>
+                  <div class="inner-text">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Dolor animi vitae, omnis earum voluptate accusamus?
+                    </p>
+                    <a href="#FIXME" title="Make Reservation" target="_self"
+                      >make reservation</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li class="menu-list list-image5">
+                <figure>
+                  <img
+                    src="./assets/images/images/menu-item-05.jpg"
+                    alt="Menu Item5"
+                  />
+                  <figcaption>$13</figcaption>
+                </figure>
+                <div class="inside-text">
+                  <h4>klassy cakes</h4>
+                  <div class="inner-text">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Dolor animi vitae, omnis earum voluptate accusamus?
+                    </p>
+                    <a href="#FIXME" title="Make Reservation" target="_self"
+                      >make reservation</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li class="menu-list list-image6">
+                <figure>
+                  <img
+                    src="./assets/images/images/menu-item-01.jpg"
+                    alt="Menu Item6"
+                  />
+                  <figcaption>$7.25</figcaption>
+                </figure>
+                <div class="inside-text">
+                  <h4>klassic cake</h4>
+                  <div class="inner-text">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Dolor animi vitae, omnis earum voluptate accusamus?
+                    </p>
+                    <a href="#FIXME" title="Make Reservation" target="_self"
+                      >make reservation</a
+                    >
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="next-previous">
+              <figure>
+                <img src="./assets/images/images/prev.png" alt="Previous" />
+              </figure>
+              <figure>
+                <img src="./assets/images/images/next.png" alt="Next" />
+              </figure>
+            </div>
+          </div>
+        </section>
+        <!--menu section end-->
+
+        <!--chef section start-->
+        <section class="chef">
+          <div class="wrapper">
+            <span class="all-caps span-center">our chefs</span>
+            <h3 class="section-heading-center">
+              we offer the best ingredients for you
+            </h3>
+            <ul>
+              <li>
+                <figure>
+                  <img src="./assets/images/images/chefs-01.jpg" alt="Chef-1" />
+                </figure>
+                <div class="chef-content">
+                  <h5>randy walker</h5>
+                  <span>pastry chef</span>
+                </div>
+              </li>
+              <li>
+                <figure>
+                  <img
+                    src="./assets/images/images/chefs-02.jpg"
+                    alt="chefs-02"
+                  />
+                </figure>
+                <div class="chef-content">
+                  <h5>david martin</h5>
+                  <span>cookie chef</span>
+                </div>
+              </li>
+              <li>
+                <figure>
+                  <img src="./assets/images/images/chefs-03.jpg" alt="Chef-3" />
+                </figure>
+                <div class="chef-content">
+                  <h5>peter parkson</h5>
+                  <span>pancake chef</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!--chef section end-->
+
+        <!--contact section start-->
+        <section class="contact">
+          <figure>
+            <img
+              src="./assets/images/images/reservation-bg.jpg"
+              alt="Reservation"
+            />
+          </figure>
+          <div class="wrapper">
+              <div class="left-contact">
+                  <span class="section-span contact-us all-caps"
+                    >contact us</span
+                  >
+                  <h3 class="section-span contact-heading">
+                    here you can make a reservation or just walkin to our cafe
+                  </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                  aliquid quidem facilis quos inventore eligendi, delectus
+                  suscipit rerum dolores commodi fugiat quod.
+                </p>
+                <ul class="phone-email">
+                  <li class="phone">
+                    <span>phone numbers</span>
+                    <div class="detailes">
+                      <a href="tel:+05890000111">080-090-0990</a>
+                      <a href="tel:+05890000111">080-090-0880</a>
+                    </div>
+                  </li>
+                  <li class="email">
+                    <span>emails</span>
+                    <div class="detailes">
+                      <a href="mailto:hello@company.com">hello@company.com</a>
+                      <a href="mailto:hello@company.com">info@company.com</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="right-contact">
+                <h4>table reservation</h4>
+                <form action="#FIXME" method="post">
+                  <div class="input-info">
+                    <div class="info">
+                      <input type="text" placeholder="Your Name*" name="name" />
+                    </div>
+                    <div class="info">
+                      <input
+                        type="email"
+                        placeholder="Your Email Address"
+                        name="email"
+                      />
+                    </div>
+                    <div class="info">
+                      <input
+                        type="text"
+                        placeholder="Phone Number*"
+                        name="phone"
+                      />
+                    </div>
+                    <div class="info">
+                      <input
+                        type="number"
+                        placeholder="Number of Guests"
+                        name="guests"
+                      />
+                    </div>
+                    <div class="info">
+                      <input type="date" name="date" />
+                    </div>
+                    <div class="info">
+                      <input type="time" name="time" />
+                    </div>
+                  </div>
+                  <div class="msg">
+                    <textarea name="msg" placeholder="message"></textarea>
+                  </div>
+                  <div class="buttons orange">
+                    <button>make a reservation</button>
+                  </div>
+                </form>
+              </div>
+          </div>
+        </section>
+        <!--contact section end-->
+        <!--offer section start-->
+        <section class="offer">
+          <div class="wrapper">
+            <span class="all-caps span-center">klassy week</span>
+            <h3 class="section-heading heading-center">
+              this week's special meal offer
+            </h3>
+
+            <ul>
+              <li>
+                <figure>
+                  <img
+                    src="./assets/images/images/tab-icon-01.png"
+                    alt="Tab Icon 1"
+                  />
+                  <figcaption>
+                    <a href="#FIXME" title="Breakfast" target="_self"
+                      >breakfast</a
+                    >
+                  </figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img
+                    src="./assets/images/images/tab-icon-02.png"
+                    alt="Tab Icon 2"
+                  />
+                  <figcaption>
+                    <a href="#FIXME" title="Lunch" target="_self">lunch</a>
+                  </figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img
+                    src="./assets/images/images/tab-icon-03.png"
+                    alt="Tab Icon 3"
+                  />
+                  <figcaption>
+                    <a href="#FIXME" title="Dinner" target="_self">dinner</a>
+                  </figcaption>
+                </figure>
+              </li>
+            </ul>
+
+            <ul class="meal-list">
+              <li>
+                <figure>
+                  <img
+                    src="./assets/images/images/tab-item-01.png"
+                    alt="Meal1"
+                  />
+                </figure>
+                  <div class="list-center">
+                    <h6>fresh chicken salad</h6>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="list-right">
+                    <span>$10.50</span>
+                  </div>
+              </li>
+              <li>
+                <figure>
+                  <img
+                    src="./assets/images/images/tab-item-02.png"
+                    alt="Meal 2"
+                  />
+                </figure>
+                  <div class="list-center">
+                    <h6>eggs omelette</h6>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="list-right">
+                    <span>$6.50</span>
+                  </div>
+              </li>
+              <li>
+                <figure>
+                  <img
+                    src="./assets/images/images/tab-item-03.png"
+                    alt="Meal 3"
+                  />
+                </figure>
+                  <div class="list-center">
+                    <h6>orange juice</h6>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="list-right">
+                    <span>$10.50</span>
+                  </div>
+              </li>
+              <li>
+                <figure>
+                  <img
+                    src="./assets/images/images/tab-item-04.png"
+                    alt="Meal 4"
+                  />
+                </figure>
+                  <div class="list-center">
+                    <h6>dollma pair</h6>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="list-right">
+                    <span>$5.00</span>
+                  </div>
+              </li>
+              <li>
+                <figure>
+                  <img
+                    src="./assets/images/images/tab-item-05.png"
+                    alt="Meal 5"
+                  />
+                </figure>
+                  <div class="list-center">
+                    <h6>fruit salad</h6>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="list-right">
+                    <span>$9.90</span>
+                  </div>
+              </li>
+              <li>
+                <figure>
+                  <img
+                    src="./assets/images/images/tab-item-06.png"
+                    alt="Meal 6"
+                  />
+                </figure>
+                  <div class="list-center">
+                    <h6>omelett & cheese</h6>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="list-right">
+                    <span>$4.10</span>
+                  </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!--offer section end-->
+      </main>
+      <!--main section end-->
+
+      <!--footer section start-->
+      <footer>
+        <div class="wrapper">
+          <div class="footer-left">
+            <ul>
+              <li>
+                <a
+                  href="#FIXME"
+                  title="Facebook"
+                  target="_blank"
+                  class="facebook"
+                  >facebook</a
+                >
+              </li>
+              <li>
+                <a href="#FIXME" title="Twitter" target="_blank" class="twitter"
+                  >twitter</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#FIXME"
+                  title="Linkedin"
+                  target="_blank"
+                  class="linkedin"
+                  >linkedin</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#FIXME"
+                  title="Instagram"
+                  target="_blank"
+                  class="instagram"
+                  >instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-center">
+            <figure>
+              <a href="/" title="Logo"
+                ><img src="./assets/images/images/white-logo.png" alt="Logo"
+              /></a>
+            </figure>
+          </div>
+          <div class="footer-right">
+            <span>© copyright klassy cafe co.</span>
+            <span>design:templateMo</span>
           </div>
         </div>
-      </li>
-      <li class="menu-list list-image3">
-        <figure>
-          <img src="./assets/images/images/menu-item-03.jpg" alt="Menu Item3">
-        </figure>
-        <span>$14</span>
-        <div class="inside-text">
-          <h4>chocolate cake</h4>
-          <div class="inner-text">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor animi vitae, omnis earum voluptate accusamus?</p>
-            <a href="#fixme" title="Make Reservation" target="_self">make reservation</a>
-          </div>
-        </div>
-      </li>
-      <li class="menu-list list-image4">
-        <figure>
-          <img src="./assets/images/images/menu-item-04.jpg" alt="Menu Item4">
-        </figure>
-        <span>$22</span>
-        <div class="inside-text">
-          <h4>klassy pan cakes</h4>
-          <div class="inner-text">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor animi vitae, omnis earum voluptate accusamus?</p>
-            <a href="#fixme" title="Make Reservation" target="_self">make reservation</a>
-          </div>
-        </div>
-      </li>
-      <li class="menu-list list-image5">
-        <figure>
-          <img src="./assets/images/images/menu-item-05.jpg" alt="Menu Item5">
-        </figure>
-        <span>$13</span>
-        <div class="inside-text">
-          <h4>klassy cakes</h4>
-          <div class="inner-text">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor animi vitae, omnis earum voluptate accusamus?</p>
-            <a href="#fixme" title="Make Reservation" target="_self">make reservation</a>
-          </div>
-        </div>
-      </li>
-      <li class="menu-list list-image6">
-        <figure>
-          <img src="./assets/images/images/menu-item-01.jpg" alt="Menu Item6">
-        </figure>
-        <span>$7.25</span>
-        <div class="inside-text">
-          <h4>klassic cake</h4>
-          <div class="inner-text">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor animi vitae, omnis earum voluptate accusamus?</p>
-            <a href="#fixme" title="Make Reservation" target="_self">make reservation</a>
-          </div>
-        </div>
-      </li>
-    </ul>
-    <div class="next-previous">
-      <figure><img src="./assets/images/images/prev.png" alt="Previous"></figure>
-      <figure><img src="./assets/images/images/next.png" alt="Next"></figure>
+      </footer>
+      <!--footer section end-->
     </div>
-  </div>
-</section>
-<!--menu section end-->
-
-<!--chef section start-->
-<section class="chef">
-  <div class="wrapper">
-    <div class="span-heading">
-      <span class="all-caps span-center">our chefs</span>
-      <h3 class="common-heading heading-center">we offer the best ingredients for you</h3>
-    </div>
-    <ul>
-     <li>
-      <figure>
-        <img src="./assets/images/images/chefs-01.jpg" alt="Chef-1">
-        <figcaption>
-          <h5>randy walker</h5>
-          <span>pastry chef</span>
-        </figcaption>
-      </figure>
-    </li>
-    <li>
-      <figure>
-        <img src="./assets/images/images/chefs-02.jpg" alt="chefs-02">
-        <figcaption>
-          <h5>david martin</h5>
-          <span>cookie chef</span>
-        </figcaption>
-      </figure>
-    </li>
-    <li>
-      <figure>
-        <img src="./assets/images/images/chefs-03.jpg" alt="Chef-3">
-        <figcaption>
-          <h5>peter parkson</h5>
-          <span>pancake chef</span>
-        </figcaption>
-      </figure>
-    </li>
-  </ul>
-  </div>
-</section>
-<!--chef section end-->
-
-<!--contact section start-->
-<section class="contact">
-  <div class="wrapper">
-    <figure>
-      <img src="./assets/images/images/reservation-bg.jpg" alt="Reservation">
-    </figure>
-    <div class="contact-box">
-    <div class="left-contact">
-      <div class="span-heading">
-      <span class="common-span contact-us all-caps">contact us</span>
-      <h3 class="common-heading contact-heading">here you can make a reservation or just walkin to our cafe</h3>
-    </div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis aliquid quidem facilis quos inventore eligendi, delectus suscipit rerum dolores commodi fugiat quod.</p>
-     <ul class="phone-email">
-      <li class="phone">
-        <span>phone numbers</span>
-        <div class="detailes">
-        <a href="tel:+05890000111">080-090-0990</a> 
-        <a href="tel:+05890000111">080-090-0880</a>
-      </div>
-      </li>
-      <li class="email">
-        <span>emails</span>
-        <div class="detailes">
-        <a href="mailto:hello@company.com">hello@company.com</a>
-        <a href="mailto:hello@company.com">info@company.com</a>
-      </div>
-      </li>
-    </ul>
-    </div>
- 
-    <div class="right-contact"><h4>table reservation</h4>
-      <form action="#fixme" method="post">
-        <div class="input-info">
-        <div class="info">
-          <input type="text" placeholder="Your Name*" name="name">
-        </div>
-        <div class="info">
-          <input type="email" placeholder="Your Email Address" name="email">
-        </div>
-        <div class="info">
-          <input type="text" placeholder="Phone Number*" name="phone">
-        </div>
-        <div class="info">
-          <input type="number" placeholder="Number of Guests" name="guests">
-        </div>  
-        <div class="info">
-          <input type="date" name="date">
-        </div>
-        <div class="info">
-          <input type="text" placeholder="Time" name="time">
-        </div> 
-        </div>
-        <div class="msg">
-          <textarea name="msg" placeholder="massage"></textarea>
-        </div>
-        <div class="buttons orange">
-          <a href="#fixme" title="Make A Reservation" target="_self">make a reservation</a>
-        </div>
-      </form>
-    </div> 
-  </div>
-  </div>
-</section>
-<!--contact section end-->
-<!--offer section start-->
-<section class="offer">
-  <div class="wrapper">
-    <div class="span-heading">
-      <span class="all-caps span-center">klassy week</span>
-      <h3 class="common-heading heading-center">this week's special meal offer</h3>
-    </div>
-    <div class="meal-type">
-      <figure>
-        <img src="./assets/images/images/tab-icon-01.png" alt="Tab Icon 1">
-         <figcaption><a href="#fixme" title="Breakfast" target="_self">breakfast</a></figcaption>
-      </figure>
-      <figure>
-        <img src="./assets/images/images/tab-icon-02.png" alt="Tab Icon 2">
-         <figcaption><a href="#fixme" title="Lunch" target="_self">lunch</a></figcaption>
-      </figure>
-      <figure>
-        <img src="./assets/images/images/tab-icon-03.png" alt="Tab Icon 3">
-         <figcaption><a href="#fixme" title="Dinner" target="_self">dinner</a></figcaption>
-      </figure>
-    </div>
-    <div class="meal">
-      <ul class="meal-list">
-        <li>
-          <figure>
-            <img src="./assets/images/images/tab-item-01.png" alt="Meal1">
-            <figcaption>
-              <div class="list-center">
-                <h6>fresh chicken salad</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-              <div class="list-right">
-                <span>$10.50</span>
-              </div>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img src="./assets/images/images/tab-item-02.png" alt="Meal 2">
-            <figcaption>
-              <div class="list-center">
-                <h6>eggs omelette</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-              <div class="list-right">
-                <span>$6.50</span>
-              </div>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img src="./assets/images/images/tab-item-03.png" alt="Meal 3">
-            <figcaption>
-              <div class="list-center">
-                <h6>orange juice</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-              <div class="list-right">
-                <span>$10.50</span>
-              </div>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img src="./assets/images/images/tab-item-04.png" alt="Meal 4">
-            <figcaption>
-              <div class="list-center">
-                <h6>dollma pair</h6>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-              <div class="list-right">
-                <span>$5.00</span>
-              </div>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img src="./assets/images/images/tab-item-05.png" alt="Meal 5">
-            <figcaption>
-              <div class="list-center">
-                <h6>fruit salad</h6>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-              </div>
-              <div class="list-right">
-                <span>$9.90</span>
-              </div>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img src="./assets/images/images/tab-item-06.png" alt="Meal 6">
-            <figcaption>
-              <div class="list-center">
-                <h6>omelett & cheese</h6>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-              </div>
-              <div class="list-right">
-                <span>$4.10</span>
-              </div>
-            </figcaption>
-          </figure>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
-<!--offer section end-->
-</main>
-<!--main section end-->
-
-<!--footer section start-->
-<footer>
-<div class="wrapper">
-  <div class="footer-left">
-    <ul>
-      <li>
-        <a href="#fixme" title="Facebook" target="_self" class="facebook">facebook</a>
-      </li>
-      <li>
-        <a href="#fixme" title="Twitter" target="_self" class="twitter">twitter</a>
-      </li>
-      <li>
-        <a href="#fixme" title="Linkedin" target="_self" class="linkedin">linkedin</a>
-      </li>
-      <li>
-        <a href="#fixme" title="Instagram" target="_self" class="instagram">instagram</a>
-      </li>
-    </ul>
-  </div>
-  <div class="footer-center">
-    <figure>
-      <img src="./assets/images/images/white-logo.png" alt="Logo">
-    </figure>
-  </div>
-  <div class="footer-right">
-    <span>© copyright klassy cafe co.</span>
-    <span>design:templateMo</span>
-  </div>
-</div>
-</footer>
-<!--footer section end-->
-
-  </div>
-  <!--container end-->
-  <script src="assets/js/script.js"></script>
-</body>
-
+    <!--container end-->
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
